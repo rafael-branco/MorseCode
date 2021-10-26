@@ -1,0 +1,21 @@
+$base-color: black;
+$text-color: white;
+
+body{
+    margin: 0;
+}
+body{
+
+    header{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $base-color;
+        color: $text-color;
+        h1{
+            text-align: center;
+        }
+    }
+}
+
