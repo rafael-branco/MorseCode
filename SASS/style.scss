@@ -1,11 +1,17 @@
-$base-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+$base-color: rgb(83, 83, 83);
 $text-color: white;
+$font-family: 'Source Code Pro', monospace;
+$border-header: rgb(71, 71, 71);
+
 
 body{
     margin: 0;
 }
-body{
 
+body{
+    font-family: $font-family;
     header{
         height: 70px;
         display: flex;
@@ -13,9 +19,14 @@ body{
         justify-content: center;
         background-color: $base-color;
         color: $text-color;
+        border-bottom: 4px solid $border-header;
         h1{
             text-align: center;
         }
+    }
+
+    .morse-container{
+        
     }
 }
 

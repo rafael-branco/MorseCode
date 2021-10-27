@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 body {
   margin: 0;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
 }
 
 body header {
@@ -13,8 +18,9 @@ body header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: black;
+  background-color: #535353;
   color: white;
+  border-bottom: 4px solid #474747;
 }
 
 body header h1 {
